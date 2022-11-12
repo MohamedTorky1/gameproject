@@ -1,0 +1,17 @@
+{
+    namespace MainMenu
+    {
+        public class UISystem : MonoBehaviour
+        {
+            // Start is called before the first frame update
+            public void Startgame()
+            {
+                SceneManager.LoadScene("GamePlayFinal");
+            }
+            public void Backgame()
+            {
+                SceneManager.LoadScene("MainMenu");
+            }
+        }
+    }
+}
